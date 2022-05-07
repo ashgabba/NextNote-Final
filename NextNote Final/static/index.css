@@ -1,0 +1,33 @@
+
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+
+.bodySection{
+    margin: 0% 5% 0% 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media only screen and (max-width: 700px) {
+    body {
+      background-color: lightblue; 
+    }
+    .bodySection{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }
+.bodyColumn{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 0% 5% 0% 5%;
+}
+
+.indexImg1{
+width: 90%;
+}
+
+.leftBody > p{
+    font-size: 16px;
+}
