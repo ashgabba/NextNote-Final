@@ -1,0 +1,29 @@
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+  
+.bodySection{
+    margin: 5%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodySection > h1{
+    margin: 5%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodySection > form{
+    margin: 5%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-group-text{
+    width: 30vw;
+}
